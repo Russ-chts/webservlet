@@ -11,7 +11,10 @@
     <title>Title</title>
   </head>
   <body>
-  <form action="http://localhost:8080/formHandling" method="get">
+  <form action="http://localhost:8080/cookieRegis" method="get">
+        <lable>Book Id:</lable>
+        <input type="number" name="bookId">
+        <br>
         <lable>Book Name:</lable>
         <input type="text" name="name">
         <br>
